@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    color:#fff;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.link-navbar{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+/* comentarios */
+
+#home-hero{
+    width: 100%;
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* p{
+
+}
+
+div{
+
+}
+
+section{
+    
+} */
