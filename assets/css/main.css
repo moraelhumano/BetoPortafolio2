@@ -1,11 +1,19 @@
+
+/* Selector Universal, usamos estas propiedad y valores para todos los elementos de html */
 *{
     margin: 0;
     padding: 0;
 }
 
+
+/* Selector de elemento, modifica todos los elementos html con este nombre */
+
 body{
     background-color: cadetblue;
 }
+
+
+/* Buena práctica ya que en toda nuestra página solo tenemos ua barra de navegación */
 
 nav{
     height: 80px;
@@ -13,24 +21,27 @@ nav{
     background-color: #000;
     color:#fff;
 
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
 
-.center-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Esta regla de css modifica todos los elementos a dentro de todos los elementos navbar ,pero recuerda que solo hay uno*/
 nav a{
     color:#fff;
     font-size: 20px;
     text-decoration: none;
     padding-right: 15px;
+}
+
+
+/* Selector de clase, para este su objetivo es ser reutilizado las veces que las necesitemos, los identificams con un punto al inicio */
+
+.center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .link-navbar{
@@ -39,8 +50,8 @@ nav a{
     text-decoration: none;
 }
 
-/* comentarios */
 
+/* Selector de id nos permite modificar solo un elemento de html, no podemos reutilizarlo */
 #home-hero{
     width: 100%;
     background-color: chartreuse;
