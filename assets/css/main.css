@@ -10,6 +10,7 @@
 
 body{
     background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -77,6 +78,25 @@ nav a{
 #home-hero img{
     width: 400px;
 }
+
+
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+
+    background-color: #2196F3;
+  }
+
+#perfil-card{
+    width: 150px;
+   
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+} */
 
 
 
