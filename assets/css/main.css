@@ -20,11 +20,12 @@ nav{
     width: 100%;
     background-color: #000;
     color:#fff;
+    padding: 10px;
+
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
 }
 
 /* Esta regla de css modifica todos los elementos a dentro de todos los elementos navbar ,pero recuerda que solo hay uno*/
@@ -53,8 +54,28 @@ nav a{
 
 /* Selector de id nos permite modificar solo un elemento de html, no podemos reutilizarlo */
 #home-hero{
-    width: 100%;
-    background-color: chartreuse;
+       /* height: 50vh; */
+       width: 100%;
+       background-color: chartreuse;
+       padding: 0 15px 0 15px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+}
+
+
+#home-hero h1{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+#home-hero p{
+    font-size: 20px;
+}
+
+#home-hero img{
+    width: 400px;
 }
 
 
