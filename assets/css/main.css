@@ -91,6 +91,7 @@ nav a{
 }
 
 .perfil-card{
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
     font-size: 30px;
     text-align: center;
@@ -105,23 +106,55 @@ nav a{
 }
 
 
-
-
-
-
-
-
-
-
-
-/* p{
-
+.div-absolute{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
 }
 
-div{
-
+.w-full-screen{
+    width: 100vw;
+    /* height: 100vh; */
 }
 
-section{
+.div-relative{
+    height: 300px;
+    width: 300px;
+    background-color: darkblue;
+}
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 200px) and (max-width: 480px) {
+  
+    body{
+        background-color: blueviolet;
+    }
+
+    #mora-home{
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: auto auto;
+        grid-template-rows: 200px 200px;
+        column-gap: 20px;
+        row-gap: 25px;
+    }
+
+    .perfil-card{
+        font-size: 16px;
+    }
+
+    .perfil-card img{
+        width: 50%;
+    }
     
-} */
+  }
+
